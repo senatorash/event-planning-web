@@ -191,11 +191,12 @@ body {
   }
 
   .services-text ul li {
-    font-size: 13px;
+    font-size: 17px;
   }
 
   .services-text h5 {
-    font-size: 15px;
+    font-size: 22px;
+    font-weight: 700;
   }
 
   .services-container h2 {
@@ -251,7 +252,7 @@ body {
   font-size: 10px;
   color: #545454;
   margin-top: -5px;
-  margin-left: -10px;
+  margin-left: -15px;
 }
 
 .img1 {
@@ -559,8 +560,8 @@ body {
   .review-text1 h6 {
     font-size: 8px;
     line-height: 0;
+    margin-left: -23em !important;
   }
-
   .review-text p {
     font-size: 6px;
   }
@@ -571,11 +572,6 @@ body {
 
   .review-text-2 h6 {
     margin-top: 12px !important;
-  }
-
-  .review-text-image img {
-    /* width: 40%; */
-    /* margi */
   }
 }
 @media only screen and (max-width: 768px) {
@@ -763,7 +759,7 @@ textarea {
 @media only screen and (max-width: 450px) {
   .footer-container {
     background-color: #fb272c;
-    height: 55px;
+    height: 20px;
   }
 
   .footer-icon {
