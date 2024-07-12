@@ -376,8 +376,12 @@ body {
     font-weight: 700;
   }
 
+  .designing-container h6 {
+    font-size: 25px;
+  }
+
   .icon-text p {
-    font-size: 8px;
+    font-size: 15px;
     white-space: nowrap;
   }
 
