@@ -110,8 +110,8 @@ body {
 
   .hero-intro p {
     white-space: nowrap;
-    font-size: 10px;
-    margin-left: 0;
+    font-size: 13px;
+    margin-left: 10px;
     margin-bottom: 20px;
     line-height: 19px;
   }
