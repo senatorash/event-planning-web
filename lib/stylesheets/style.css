@@ -251,7 +251,7 @@ body {
   font-size: 10px;
   color: #545454;
   margin-top: -5px;
-  /* margin-left: 0; */
+  margin-left: -10px;
 }
 
 .img1 {
@@ -518,8 +518,9 @@ body {
 
   .review-section h3 {
     margin-left: 25px;
-    font-size: 20px;
+    font-size: 25px !important;
     font-weight: 700;
+    margin-bottom: 20px;
   }
 
   .review-img {
@@ -653,7 +654,7 @@ input[type="number"] {
   /* width: 100%; */
   border: none;
   padding: 10px 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
   margin: 15px;
 }
 
@@ -702,7 +703,7 @@ textarea {
   input[type="email"],
   input[type="number"] {
     width: 70% !important;
-    padding: 5px !important;
+    /* padding: 5px !important; */
   }
 
   textarea {
