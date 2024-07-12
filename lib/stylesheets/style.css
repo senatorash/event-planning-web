@@ -863,15 +863,19 @@ input[type="date"] {
 
   .book-section input[type="text"] {
     width: 90% !important;
+    padding: 20px !important;
   }
 
   .book-section input[type="email"],
   input[type="date"] {
     width: 90% !important;
+    padding: 20px !important;
+    margin-left: 10px !important;
   }
 
   input.phone-form {
     width: 90% !important;
+    margin-left: 10px !important;
   }
 
   .book-section button {
