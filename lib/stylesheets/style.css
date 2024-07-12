@@ -744,13 +744,13 @@ textarea {
   .contact-form form input[type="text"],
   input[type="email"],
   input[type="number"] {
-    width: 100% !important;
+    width: 80% !important;
     margin-left: -10px !important;
     padding: 20px !important;
   }
 
   textarea {
-    width: 100% !important;
+    width: 80% !important;
     margin-left: -10px !important;
     padding: 20px !important;
     margin-top: 30px !important;
