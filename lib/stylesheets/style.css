@@ -384,7 +384,7 @@ body {
 }
 
 .img-33 img {
-  width: 65vh !important;
+  width: 85vh !important;
 }
 /* design section ends  */
 
@@ -528,7 +528,7 @@ body {
   font-size: 10px;
   line-height: 10px;
   white-space: nowrap;
-  margin-left: -16em !important;
+  margin-left: -10em !important;
 }
 
 .review-text1 p {
@@ -541,6 +541,25 @@ body {
   /* margin-top: 5px; */
 }
 /* review section ends */
+@media only screen and (max-width: 1199px) {
+  .review-text1 h5 {
+    font-size: 7px;
+  }
+
+  .review-text-4 {
+    margin-top: 20px !important;
+  }
+
+  .review-text-4 img {
+    margin-top: 10px;
+    width: 30%;
+  }
+
+  .review-text-3 {
+    margin-top: 40px !important;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .review-section {
     margin-left: -10px !important;
@@ -582,7 +601,7 @@ body {
   }
 
   .review-text1 h5 {
-    font-size: 10px;
+    font-size: 8px !important;
     margin-bottom: 10px;
   }
 
