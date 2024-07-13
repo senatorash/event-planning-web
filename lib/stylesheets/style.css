@@ -276,6 +276,12 @@ body {
   .card-body {
     margin-bottom: -70px;
   }
+
+  .img-pic {
+    /* width: 100% !important; */
+    height: 25vh !important;
+    margin-bottom: 80px !important;
+  }
 }
 
 /* gallery section starts */
