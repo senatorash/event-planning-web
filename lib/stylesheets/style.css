@@ -281,8 +281,12 @@ body {
     margin-bottom: 40px;
   }
 
+  .ambiance-img {
+    width: 80% !important;
+  }
+
   .img-pic {
-    width: 85% !important;
+    width: 75% !important;
     height: 25vh !important;
     /* margin-bottom: 80px !important; */
   }
