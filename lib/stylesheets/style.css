@@ -338,6 +338,10 @@ body {
   margin-top: 30px;
 }
 
+.icon-text1 {
+  margin-top: 16px;
+}
+
 .icon-text h6 {
   margin-top: 5px;
 }
@@ -359,7 +363,7 @@ body {
   position: absolute;
   rotate: 180deg;
   margin-bottom: 100px;
-  height: 100px;
+  height: 80px;
   margin-left: 16px;
   margin-top: 5px;
 }
@@ -384,6 +388,10 @@ body {
   .designing-container h6 {
     font-size: 18px;
     font-weight: 600;
+  }
+
+  .icon-text1 {
+    margin-top: 0px;
   }
 
   .icon-text p {
@@ -559,8 +567,8 @@ body {
   }
 
   .review-text1 h5 {
-    font-size: 7px;
-    margin-bottom: 20px;
+    font-size: 10px;
+    margin-bottom: 10px;
   }
 
   .review-text1 h6 {
