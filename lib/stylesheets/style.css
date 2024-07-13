@@ -88,7 +88,8 @@ body {
   margin-left: 180px !important;
   margin-bottom: 20px;
   margin-top: 40px;
-  width: 50vh !important;
+  height: 50vh;
+  /* width: 50vh !important; */
   /* position: relative; */
 }
 
