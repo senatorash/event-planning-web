@@ -277,10 +277,14 @@ body {
     margin-bottom: -70px;
   }
 
+  .picturesque-bdy {
+    margin-bottom: 40px;
+  }
+
   .img-pic {
-    /* width: 100% !important; */
+    width: 85% !important;
     height: 25vh !important;
-    margin-bottom: 80px !important;
+    /* margin-bottom: 80px !important; */
   }
 }
 
