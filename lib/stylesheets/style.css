@@ -574,7 +574,7 @@ body {
   .review-text1 h6 {
     font-size: 8px;
     line-height: 0;
-    margin-left: -23em !important;
+    margin-left: -25em !important;
   }
   .review-text p {
     font-size: 6px;
@@ -703,11 +703,11 @@ textarea {
   }
 
   .details {
-    width: 70%;
+    width: 73%;
   }
 
   .details p {
-    font-size: 10px;
+    font-size: 13px;
     /* font-weight: 500; */
   }
 
@@ -784,6 +784,8 @@ textarea {
   font-weight: 500;
   color: #fff;
   text-align: center;
+  margin-bottom: -10px;
+  margin-top: 0;
 }
 
 .footer-icon {
@@ -824,7 +826,7 @@ textarea {
 
 .book-section h1 {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: 30px;
   color: #fb272c;
   font-weight: 700;
