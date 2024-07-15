@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Book Now Section</title>
 
-    <link rel="stylesheet" href="lib/stylesheets/style.css" />
+    <!-- <link rel="stylesheet" href="lib/stylesheets/style.css" /> -->
 
     <link rel="icon" type="image/png" href="lib/images/IMG_4368.JPG" />
 
@@ -23,6 +23,66 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      body {
+        font-family: "POPPINS", sans-serif;
+      }
+
+      section h2 {
+        color: #fb272c;
+        font-weight: 600;
+        font-size: 2rem;
+        margin-top: 80px;
+        text-align: center;
+      }
+
+      .nav-btn {
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.2rem;
+        margin-right: 20px;
+        text-decoration: none;
+        background-color: #000;
+        border-radius: 20px;
+        padding: 5px 20px;
+      }
+
+      .nav-btn:hover {
+        background-color: #fb272c;
+      }
+
+      .footer-container {
+        background-color: #fb272c;
+        height: 50px;
+      }
+
+      .footer-intro p {
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .footer-intro h2 {
+        font-size: 10px;
+        text-align: center;
+        margin-top: -10px;
+        color: #fff;
+      }
+      @media only screen and (max-width: 450px) {
+        .footer-container {
+          background-color: #fb272c;
+          height: 70px;
+        }
+
+        .footer-intro p {
+          margin-left: 15px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -43,8 +103,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li><a class="nav-btn" href="index.html">HOME</a></li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li>
+                <a class="nav-btn" href="index.html">HOME</a>
+              </li>
             </ul>
 
             <!-- <a class="nav-btn" href="index
@@ -55,59 +117,106 @@
     </header>
 
     <main>
-      <section class="container book-section">
-        <h1>BOOK NOW</h1>
-        <form
-          class="book-text"
-          action="https://formsubmit.co/seideashimi03@gmail.com"
-          method="POST"
-        >
-          <div>
-            <input
-              type="text"
-              name="First-Name"
-              placeholder="First Name"
-              required
-            />
-            <input
-              type="text"
-              name="Last-Name"
-              placeholder="Last Name"
-              required
-            />
-          </div>
+      <section class="container mt-5">
+        <div class="row">
+          <div class="col-lg-3"></div>
+          <div class="col-lg-6">
+            <h2 class="mb-3">BOOK NOW</h2>
 
-          <input type="email" name="email" placeholder="Email" required /><br />
-          <input
-            type="number"
-            placeholder="Phone Number"
-            class="phone-form"
-            required
-            name="Phone-Number"
-          /><br />
-          <input
-            type="text"
-            placeholder="Description Of The Event Intended"
-            required
-            style="width: 54%"
-            name="Description"
-          /><br />
-          <input type="date" placeholder="Date" name="Date" required /><br />
-          <input type="hidden" name="_captcha" value="false" />
-          <button class="btn btn-dark"><a href="#"></a>BOOK</button>
-          <input
-            type="hidden"
-            name="_next"
-            value="https://event-planning-web-j3ls.vercel.app/book.html"
-          />
-        </form>
+            <!-- <div class="alert alert-danger hide" role="alert"></div> -->
+
+            <form
+              id="form"
+              class="book-text"
+              action="https://formsubmit.co/seideashimi03@gmail.com"
+              method="POST"
+            >
+              <div class="form-group mb-3">
+                <input
+                  class="form-control"
+                  name="First Name"
+                  placeholder="First Name"
+                  type="text"
+                  id="firstname-input"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  class="form-control"
+                  name="Last Name"
+                  placeholder="last Name"
+                  type="text"
+                  id="lastname-input"
+                  required
+                />
+              </div>
+              <div class="form-group mb-3">
+                <input
+                  class="form-control"
+                  placeholder="Enter Your Email"
+                  name="Email"
+                  type="text"
+                  id="email-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <input
+                  type="phone-number"
+                  placeholder="Phone Number"
+                  class="form-control"
+                  required
+                  name="Phone-Number"
+                  required
+                /><br />
+              </div>
+
+              <div class="form-group mb-3">
+                <input
+                  class="form-control"
+                  placeholder="Description Of Event"
+                  name="Description"
+                  type="text"
+                  id="descrip-input"
+                  required
+                />
+              </div>
+
+              <div class="form-group mb-3">
+                <input
+                  class="form-control"
+                  placeholder="Date of Event"
+                  name="Date"
+                  type="date"
+                  id="date-input"
+                  required
+                />
+              </div>
+              <input type="hidden" name="_captcha" value="false" />
+
+              <div class="form-group mb-3">
+                <button class="btn btn-dark" style="width: 100%" type="submit">
+                  Sign Up
+                </button>
+              </div>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://event-planning-web-j3ls.vercel.app/book.html"
+              />
+            </form>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
       </section>
     </main>
 
     <footer class="container-fluid footer-container px-5">
       <div class="footer-intro">
         <p>© 2024 The Wright Social Spot. All rights reserved.</p>
-        <p>POWERED BY LAMB ARTS</p>
+        <h2>POWERED BY LAMB ARTS</h2>
       </div>
     </footer>
 

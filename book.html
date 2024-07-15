@@ -41,6 +41,36 @@
           width: 80% !important;
         }
       }
+
+      .footer-container {
+        background-color: #fb272c;
+        height: 50px;
+      }
+
+      .footer-intro p {
+        font-size: 10px;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        margin-top: 10px;
+      }
+
+      .footer-intro h2 {
+        font-size: 10px;
+        text-align: center;
+        margin-top: -10px;
+        color: #fff;
+      }
+      @media only screen and (max-width: 450px) {
+        .footer-container {
+          background-color: #fb272c;
+          height: 70px;
+        }
+
+        .footer-intro p {
+          margin-left: 15px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -81,6 +111,13 @@
         <img src="lib/images/test 1.png" style="width: 30%" />
       </section>
     </main>
+
+    <footer class="container-fluid footer-container px-5">
+      <div class="footer-intro">
+        <p>© 2024 The Wright Social Spot. All rights reserved.</p>
+        <h2>POWERED BY LAMB ARTS</h2>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
