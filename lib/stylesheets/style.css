@@ -527,7 +527,7 @@ body {
   font-size: 10px;
   line-height: 10px;
   white-space: nowrap;
-  margin-left: -10em !important;
+  margin-left: -15em !important;
 }
 
 .review-text1 p {
@@ -545,8 +545,8 @@ body {
     font-size: 7px;
   }
 
-  .review-text-4 {
-    margin-top: 20px !important;
+  .review-text1 h6 {
+    margin-left: -10em !important;
   }
 
   .review-text-4 img {
