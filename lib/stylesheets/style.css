@@ -36,9 +36,8 @@ body {
 
 /* hero-section styling starts */
 .hero-container {
-  margin-top: 80px;
+  /* margin-top: 80px; */
   margin-bottom: 100px;
-  position: relative;
 }
 
 .hero-intro h1 {
@@ -46,7 +45,7 @@ body {
   white-space: nowrap;
   line-height: 100px;
   margin-left: -30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .hero-intro p,
@@ -502,7 +501,7 @@ body {
 }
 
 .review-text-4 {
-  margin-top: 6px !important;
+  margin-top: -13px !important;
 }
 
 .quote {
